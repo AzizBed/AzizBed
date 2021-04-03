@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+body {
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ,Arial,sans-serif;
+    color: #747474;
+    margin: 0;
+    width: 950px ;
+    margin: auto;
+}
+h1  , h3{
+    color: #00b39b;
+    font-family: Work sans ,sans-serif
+}
+.topnavs {
+    display: flex;
+    width: 70%;
+  height: 80px;
+    position: fixed ;
+justify-content: space-between;
+
+margin-bottom: ;
+
+background-color: white;
+margin-bottom: 120px;
+box-shadow: rgba(0, 0, 0, 0.15);
+z-index: 1;
+    
+}
+
+.docplanner-logo{
+   width: 268px;
+   height: 33px;
+}
+.main-menu  {
+    display: flex;
+    justify-content: space-around;
+    padding: 13px 0.6em;
+    list-style: none;
+    
+    margin: 0px;
+}
+.main-menu li {
+    
+    padding: 13px 0.6em;
+    list-style: none;
+    margin-right: 0px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-menu a:hover{
+    text-decoration: none;
+    color: #00c3a5;
+}
+.main-menu li:nth-child(3):hover{
+    text-decoration: none;
+    cursor: pointer;
+     
+    
+}
+.main-menu li:nth-child(3):hover .dropdownmenu {
+    display: flex;
+    
+  }
+#about{
+    color: #00b39b
+}
+.dropdownmenu  {
+  display: none;
+  flex-direction: column;
+  width: 240px;
+  list-style: none;
+  background: #fff;
+  COLOR: #918984
+  margin-top: 10px;
+  position: absolute;
+  
+  right: 5px;
+  padding-left: 0;
+  border: none;
+  box-shadow: black ;
+  z-index: 1;
+  padding-top: 10px;
+  position: absolute;
+  min-width: 220px;
+  
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+.container1 {
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+    
+}
+.box > p {
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.box{
+
+    margin: 12.8px 0;
+    
+    }
+.first-section{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.container2 {
+    display: grid;
+    grid-template-rows: repeat(3,1fr)  ;
+    grid-gap: 10px;
+    padding: 10px;
+    
+}   
+.midbox {
+    grid-row: center;
+    height: 300px;
+    border-radius: 10px;
+    padding: 2em 2em 2em;
+    color: white;
+    }
+    .midboxcont  {
+       margin-top: 90px;
+       text-decoration: underline;
+       cursor: pointer;
+    }
+    .midbox1
+    {
+        background-color: #00ccb1;
+    }
+    .midbox2
+    {
+        background-color: #3d83df;
+    }
+    .midbox3
+    {
+        background-color: #1b2734;
+    }
+    
+    
+    .companies {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+        
+        }
+         
+       .logos {
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: space-around   ;
+           padding-left: 15px;    
+        }
+
+        .platform {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: 1fr 1fr  ;
+            background-color: #d8f6f6;
+            
+
+        }
+        .left    {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 50px;            
+        }
+        div{
+            display: block;
+        }
+        .right
+        {
+            display: grid;
+            grid-template-columns:repeat(1fr , 4);
+            grid-gap: 20px;
+            grid-auto-rows: minmax(20px, auto);
+            grid-auto-columns: minmax(20px,auto);
+        }
+        #docp {
+           
+           margin-top: 75px;
+           position: absolute;
+        }
+        .platbox{
+            background: #fff;
+            border-radius: 5px;
+            height: 250px;
+            text-align: center;
+            padding: 15px;
+            font-size: .8125em;
+            margin: 10px;
+        }
+        .ic {
+            margin: auto;
+            
+        }
+.btn {
+    float: right;
+    font-size: x-small
+}
+.card-body {
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.containe {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    padding: 20px;
+   
+}  
+
+.containeP
+{
+    margin-bottom: 10px;
+}
+.companies > h1 {
+font-size: 1.5rem;
+}
+.change , .foot{
+    text-align: center;
+    padding: 20px;   
+    font-size: 12px;
+    color: #ababab;
+    margin: 50px;
+    
+}
+.btn1
+{
+    display: flex;
+    justify-content: center;
+}
